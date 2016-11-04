@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>评论系统 -- demo</title>
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+<link type="text/css" rel="stylesheet" href="css/comment.css" />
+</head>
+
+<body>
+  <a href="javascript:alert('你好，十月！');">你好，十月！</a>
+  <div class="comment-sender-wrap">
+    <div class="comment-sender-main">
+      <div class="comment-sender-info">
+        <img src="img/male_180.png" />
+        <span><a href="javascript:alert('系统提示，请登录！');">登录</a>|<a href="javascript:void(0);">注册</a></span>
+      </div>
+      <div class="comment-sender-content">
+       <textarea></textarea>
+      </div>
+    </div>
+    <div class="comment-sender-console">
+       <div class="comment-sender-expression">
+          表情
+       </div>
+       <div class="comment-sender-submit">
+          <a href="javascript:alert('系统提示，请填写评论内容！');">发布</a>
+       </div>
+    </div>
+  </div>
+  
+  <div class="comment-exhibition-wrap">
+    <div class="comment-exhibition-bar">
+      <div class="comment-exhibition-bar-title">热门评论</div>
+      <div class="comment-exhibition-bar-content">
+        <!--<ul>
+          <li>评论一</li>
+          <li>评论二</li>
+          <li>评论三</li>
+          <li>评论四</li>
+          <li>评论五</li>
+        </ul>-->
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+              <!--<span><a href="javascript:;">点赞</a></span>
+              <span><a href="javascript:;">踩</a></span>-->
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="comment-exhibition-bar">
+      <div class="comment-exhibition-bar-title">最新评论</div>
+      <div class="comment-exhibition-bar-content">
+        <!--<ul>
+          <li>评论一</li>
+          <li>评论二</li>
+          <li>评论三</li>
+          <li>评论四</li>
+          <li>评论五</li>
+        </ul>-->
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="comment-exhibition-bar-content-separate"></div>
+        <div class="comment-exhibition-bar-content-list">
+          <div class="comment-exhibition-bar-content-list-pimage">
+            <img src="img/male_180.png"/>
+          </div>
+          <div class="comment-exhibition-bar-content-list-main">
+            <div class="comment-exhibition-bar-content-list-main-info">
+              <span class="comment-ex-bar-content-uname">梅落零.若言</span>
+              <span class="comment-ex-bar-content-uaddress">四川.成都</span>
+            </div>
+            
+            <div class="comment-ex-bar-content-acomment">
+              中山先生提出来的“驱除鞑虏，恢复中华”，已经有百多年，经百多年的血与火，拿着枪炮的列强已被赶出，但是鞑虏仍在，他们的残渣余孽仍在配合其主子图谋分裂、觊觎我国土。历史大潮浩浩汤汤，顺之者昌，逆之者亡。中华复兴势不可挡，不论是列强后裔还是汉奸，都别再想剥离我一寸国土！
+            </div>
+            
+            <div class="comment-ex-bar-content-appendix">
+              <span class="comment-ex-bar-content-stime">2016年11月2日16:40</span>
+              <span><a href="javascript:;">举报</a></span>
+              <span class="float-right inline-block">
+                <span><a href="javascript:;">点赞</a></span>
+                <span><a href="javascript:;">踩</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
